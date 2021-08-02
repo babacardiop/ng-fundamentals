@@ -19,7 +19,4 @@ export class EventsListComponent{
         }
   };
 
-  handleEventClicked(data: any){
-    console.log("received, ",data);
-  }
 }
