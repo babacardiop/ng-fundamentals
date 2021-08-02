@@ -12,7 +12,6 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
             <span>Location: {{event.location.address}}</span>
             <span class="pad-left">{{event.location.city}}, {{event.location.country}}</span>
         </div>
-        <button class="btn btn-primary">Click Me !</button>
     </div>
     `,
     styles: [`
@@ -22,6 +21,10 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
 
     .well div {
         color: #bbb;
+    }
+
+    .thumbnail{
+        min-height: 210px;
     }
     `]
 })
